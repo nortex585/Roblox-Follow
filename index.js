@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 let followStatus = false;
-const TARGET_ID = "3248783247";
+const TARGET_ID = "4895695023";
 
 app.get('/check', (req, res) => {
     const id = req.query.id;
